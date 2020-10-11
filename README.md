@@ -1,6 +1,6 @@
 # E-commerce project
 
-![Demo gif](https://res.cloudinary.com/dk3k7h7oi/image/upload/v1602442820/e-commerce_hybz0i.gif)
+![https://res.cloudinary.com/dk3k7h7oi/image/upload/v1602443995/ezgif-6-33a9072c4ece_czitix.gif](https://res.cloudinary.com/dk3k7h7oi/image/upload/v1602443995/ezgif-6-33a9072c4ece_czitix.gif)
 
 ## Available Scripts
 
