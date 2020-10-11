@@ -1,0 +1,31 @@
+.amount-block {
+    display: grid;
+    width: 126px;
+    height: 41px;
+    grid-template-columns: 38px 44px 38px;
+    padding: 3px;
+    background-color: #f0eeee;
+    border-radius: 10px;
+}
+
+.amount-block input {
+    text-align: center;
+    background-color: #f0eeee;
+    outline: none;
+    border: none;
+    font-size: 1.1em;
+}
+
+.btn-amount {
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.4em;
+    background-color: #ffffff;
+    border: none;
+    line-height: 34px;
+    padding: 0;
+}
+
+.btn-amount[disabled] {
+    cursor: default;
+}

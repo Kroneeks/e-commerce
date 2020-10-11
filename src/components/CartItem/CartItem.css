@@ -1,0 +1,28 @@
+.cart-item__media {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+.cart-item__media img {
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.cart-item__price span {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.cart-item__sum span {
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.cart-item__remove {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    padding-right: 20px;
+}

@@ -1,0 +1,51 @@
+.concept-block {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    border-radius: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.concept-block.colored:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #5249B7;
+}
+
+.concept-block.colored:after {
+    position: absolute;
+    content: '';
+    right: -62px;
+    bottom: 83px;
+    width: 717px;
+    height: 397px;
+    border-radius: 50%;
+    background-color: #F94183;
+}
+
+.concept-block__title {
+    color: #ffffff;
+    font-size: 2em;
+    position: absolute;
+    margin: 0;
+    z-index: 10;
+    font-weight: 700;
+    margin: 0 0 30px 20px;
+}
+
+.concept-block img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    object-fit: cover;
+    filter: brightness(0.9);
+}
